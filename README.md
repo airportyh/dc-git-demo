@@ -4,11 +4,8 @@ This is a demo project for me to practice git with.
 
 
 
-Change
 
-Matthew's change.git
-# this is a change by kyleluck
-# change by Allen Thompsoncom
+Change
 
 
 
@@ -18,4 +15,8 @@ making a change. -dk
 * this is a change by kyleluck
 * change by Allen Thompsoncom
 * Another paragraph from Toby.
+* line by rrgn
+* ShandaQ
 * Change by Cody Barber
+Matthew's change.git
+* This is change Sandhya is doing.
