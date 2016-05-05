@@ -1,10 +1,10 @@
-# Git DEMO
+ß# Git DEMO
 
 This is a demo project for me to practice git with.
 
 ## List of Changes
-* Dave was here
-* this is a change by kyleluck
+* Dave was here again
+* tis is a change by kyleluck
 * change by Allen Thompsoncom
 * Another paragraph from Toby.
 * line by rrgn
