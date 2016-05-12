@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+  </head>
+  <style media="screen">
+
+    body{
+      background-image: url(weather.png);
+    }
+    button{
+      width: 105px;
+      height: 90px;
+      font-size: 4em;
+      background-color: pink ;
+      border-radius: 5px;
+      color: maroon;
+      background: linear-gradient(to bottom,  blue 0%, cyan 41%,white 100%);
+      box-shadow: 0px 2px 2px black;
+      transition: 0.25s;
+    }
+    .operator{
+      background: linear-gradient(to bottom,  green 0%,lightgreen 41%,white 100%);
+    }
+    .evaluate{
+      background: linear-gradient(to bottom,  red 0%,orange 41%,white 100%);
+    }
+    #display {
+      height: 80px;
+      width: 308px;
+      font-size: 4em;
+      text-align: right;
+      border-radius: 5px;
+      background: linear-gradient(to bottom,  grey 0%,lightgrey 41%,white 100%);
+    }
+    .center{
+      background-color: purple;
+      text-align: center;
+      width: 450px;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 5px;
+      height: 500px;
+    }
+    .name{
+      font-family:fantasy;
+      font-size: 50px;
+      text-align: center;
+    }
+    img{
+      height: 75px;
+    }
+    table{
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src= "calculator.js">
+
+  </script>
+  <body>
+    <div class="name">
+      <strong>Start Calculating!</strong>
+      <img src="smiley.jpg" alt="" />
+    </div>
+    <br>
+    <br>
+    <div class="center">
+    <table >
+      <tr>
+        <td>
+          <button>C</button>
+        </td>
+        <td colspan = "3">
+          <input id="display" type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="number">7</button>
+        </td>
+        <td>
+          <button class="number">8</button>
+        </td>
+        <td>
+          <button class="number">9</button>
+        </td>
+        <td>
+          <button class="operator"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="number">4</button>
+        </td>
+        <td>
+          <button class="number">5</button>
+        </td>
+        <td>
+          <button class="number">6</button>
+        </td>
+        <td>
+          <button class="operator">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="number">1</button>
+        </td>
+        <td>
+          <button class="number">2</button>
+        </td>
+        <td>
+          <button class="number">3</button>
+        </td>
+        <td>
+          <button class="operator">+</button>
+        </td>
+        <tr>
+          <td>
+            <button class="number">0</button>
+          </td>
+          <td>
+            <button class="evaluate">=</button>
+          </td>
+          <td>
+            <button class="operator">/</button>
+          </td>
+        </tr>
+      </tr>
+    </table>
+    </div>
+</body>
+</html>
